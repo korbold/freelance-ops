@@ -2,17 +2,17 @@
 
 ## User Profile
 
-**Name:** Danny Barahona  
+**Name:** Your Name  
 **Role:** Mobile Developer (Flutter & React Native)  
-**Location:** Ecuador, LATAM  
-**Timezone:** GMT-5  
+**Location:** Your City, Country  
+**Timezone:** Your Timezone  
 **Upwork profile:** authenticated in browser session  
-**Languages:** Spanish (native), English (professional)
+**Languages:** Your languages
 
 ## CV Paths
 
-- Flutter: `/Users/korbold/Developer/Freelancer/Korbold/Danny_Barahona_CV_Flutter_EN.pdf`
-- React Native: `/Users/korbold/Developer/Freelancer/Korbold/Danny_Barahona_CV_RN_EN.pdf`
+- Flutter: `/path/to/your/CV_Flutter.pdf`  ← update in data/filters.json
+- React Native: `/path/to/your/CV_ReactNative.pdf`  ← update in data/filters.json
 - Default: Flutter CV
 
 ## Data Files

@@ -23,8 +23,8 @@
     "react_native": ["react native", "react-native", "rn developer", "expo", "metro bundler"]
   },
   "cv_paths": {
-    "flutter": "/Users/korbold/Developer/Freelancer/Korbold/Danny_Barahona_CV_Flutter_EN.pdf",
-    "react_native": "/Users/korbold/Developer/Freelancer/Korbold/Danny_Barahona_CV_RN_EN.pdf",
-    "default": "/Users/korbold/Developer/Freelancer/Korbold/Danny_Barahona_CV_Flutter_EN.pdf"
+    "flutter": "/path/to/your/CV_Flutter.pdf",
+    "react_native": "/path/to/your/CV_ReactNative.pdf",
+    "default": "/path/to/your/CV_Flutter.pdf"
   }
 }
