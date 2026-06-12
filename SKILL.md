@@ -3,7 +3,7 @@ name: freelance-ops
 description: Automated freelance job hunting — scan Upwork, validate jobs, send proposals
 arguments: mode
 user-invocable: true
-argument-hint: "[scan | validate | propose | pipeline | tracker | patterns]"
+argument-hint: "[{upwork-url} | scan | validate | propose | pipeline | tracker | patterns]"
 license: MIT
 ---
 
@@ -24,7 +24,7 @@ Determine mode from `$mode`:
 | `tracker` | `tracker` |
 | `patterns` | `patterns` |
 
-**Auto-pipeline detection:** If `$mode` contains `upwork.com/jobs/` or `upwork.com/nx/jobs/`, execute `propose` mode with that URL as the target job.
+**Auto-pipeline detection:** If `$mode` is not a known sub-command AND contains `upwork.com/jobs/` or `upwork.com/nx/jobs/` (with or without query params), execute `propose` mode with the full URL as target. Known sub-commands take priority: if `$mode` is exactly `scan`, `validate`, `propose`, `pipeline`, `tracker`, or `patterns`, route to that mode regardless of URL-like content.
 
 ## Discovery Mode
 
