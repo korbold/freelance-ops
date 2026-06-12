@@ -14,7 +14,7 @@ A Claude Code skill for automated freelance job hunting on Upwork. Scans listing
 ## Requirements
 
 - [Claude Code](https://claude.ai/code)
-- [browser-pilot](https://github.com/korbold/browser-pilot) MCP server + browser extension
+- [browser-pilot](https://github.com/korbold/browser-pilot) — MCP server + browser extension that gives Claude access to your authenticated browser sessions
 - Upwork account authenticated in browser
 
 ## Setup
@@ -50,9 +50,9 @@ In `data/filters.json`, adjust:
 - `budget.hourly_min` — minimum hourly rate (default: $15/hr)
 - `negative_keywords` — add any phrases that signal bad clients
 
-### 5. Add browser-pilot allowlist
+### 5. Set up browser-pilot
 
-Make sure `upwork.com` is in your browser-pilot allowlist. For Workana too:
+Install [browser-pilot](https://github.com/korbold/browser-pilot) (MCP server + browser extension), then make sure `upwork.com` is in the allowlist. For Workana too:
 
 ```json
 { "domains": ["upwork.com", "workana.com"] }
