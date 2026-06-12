@@ -1,0 +1,30 @@
+{
+  "budget": {
+    "fixed_min": 300,
+    "hourly_min": 15
+  },
+  "rating_min": 4.8,
+  "hires_min": 1,
+  "negative_keywords": [
+    "cheapest",
+    "budget is $5",
+    "entry level only",
+    "very simple",
+    "just a few hours",
+    "asap cheap",
+    "quick fix cheap",
+    "low budget",
+    "we don't have much budget",
+    "just need someone cheap"
+  ],
+  "boost_threshold": 4,
+  "cv_keywords": {
+    "flutter": ["flutter", "dart", "widget", "bloc", "riverpod", "getx", "provider"],
+    "react_native": ["react native", "react-native", "rn developer", "expo", "metro bundler"]
+  },
+  "cv_paths": {
+    "flutter": "/Users/korbold/Developer/Freelancer/Korbold/Danny_Barahona_CV_Flutter_EN.pdf",
+    "react_native": "/Users/korbold/Developer/Freelancer/Korbold/Danny_Barahona_CV_RN_EN.pdf",
+    "default": "/Users/korbold/Developer/Freelancer/Korbold/Danny_Barahona_CV_Flutter_EN.pdf"
+  }
+}
