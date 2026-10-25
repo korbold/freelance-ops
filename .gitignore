@@ -1,0 +1,6 @@
+# Personal data — never publish
+data/profile.md
+data/tracker.json
+data/filters.json
+data/pipeline.md
+.playwright-mcp/
